@@ -7,4 +7,10 @@ class Player {
         string name;
         int ELO;
         int seeding;
+
+        Player(int seedingCon, string nameCon, int ELOCon) {
+            name = nameCon;
+            seeding = seedingCon;
+            ELO = ELOCon;
+        }
 };
